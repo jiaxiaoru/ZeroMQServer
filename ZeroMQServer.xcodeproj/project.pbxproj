@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC0B600C237BD3EB001B0A5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BC0B600B237BD3EB001B0A5E /* main.c */; };
-		BC0B602B237BE148001B0A5E /* libzmq.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0B6027237BE136001B0A5E /* libzmq.5.dylib */; };
-		BC0B602C237BE148001B0A5E /* libzmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0B6028237BE136001B0A5E /* libzmq.a */; };
+		BCE3BE25237E3CC60061974A /* libzmq.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0B6027237BE136001B0A5E /* libzmq.5.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +26,8 @@
 /* Begin PBXFileReference section */
 		BC0B6008237BD3EB001B0A5E /* ZeroMQServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZeroMQServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0B600B237BD3EB001B0A5E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		BC0B6025237BE0F1001B0A5E /* zmq_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq_utils.h; sourceTree = "<group>"; };
 		BC0B6026237BE0F1001B0A5E /* zmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq.h; sourceTree = "<group>"; };
 		BC0B6027237BE136001B0A5E /* libzmq.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libzmq.5.dylib; sourceTree = "<group>"; };
-		BC0B6028237BE136001B0A5E /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzmq.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC0B602B237BE148001B0A5E /* libzmq.5.dylib in Frameworks */,
-				BC0B602C237BE148001B0A5E /* libzmq.a in Frameworks */,
+				BCE3BE25237E3CC60061974A /* libzmq.5.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +62,6 @@
 		BC0B600A237BD3EB001B0A5E /* ZeroMQServer */ = {
 			isa = PBXGroup;
 			children = (
-				BC0B6025237BE0F1001B0A5E /* zmq_utils.h */,
 				BC0B6026237BE0F1001B0A5E /* zmq.h */,
 				BC0B600B237BD3EB001B0A5E /* main.c */,
 			);
@@ -77,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				BC0B6027237BE136001B0A5E /* libzmq.5.dylib */,
-				BC0B6028237BE136001B0A5E /* libzmq.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
